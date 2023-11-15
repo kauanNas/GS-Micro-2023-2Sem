@@ -1,7 +1,12 @@
 package br.com.fiap.global.backend.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
+import lombok.Getter;
 
+
+
+@Getter
 @Entity(name = "indicador")
 @Table(uniqueConstraints = { @UniqueConstraint(columnNames = {"codigo"} )})
 public class Indicador {
@@ -24,6 +29,7 @@ public class Indicador {
 
     @ManyToOne
     @JoinColumn(name = "id_ods")
+    @JsonIgnore
     private ODS ods;
 
 }

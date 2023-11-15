@@ -2,9 +2,11 @@ package br.com.fiap.global.backend.model;
 
 
 import jakarta.persistence.*;
+import lombok.Getter;
 
 import java.util.List;
 
+@Getter
 @Entity(name = "ods")
 @Table(uniqueConstraints = { @UniqueConstraint(columnNames = {"codigo"} )})
 public class ODS {

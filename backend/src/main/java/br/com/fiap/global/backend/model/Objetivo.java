@@ -1,7 +1,9 @@
 package br.com.fiap.global.backend.model;
 
 import jakarta.persistence.*;
+import lombok.Getter;
 
+@Getter
 @Entity(name = "objetivo")
 public class Objetivo {
 
@@ -14,5 +16,4 @@ public class Objetivo {
 
     @Column
     private String brasil;
-
 }
