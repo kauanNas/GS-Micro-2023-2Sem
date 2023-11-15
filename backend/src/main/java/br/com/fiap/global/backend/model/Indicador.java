@@ -22,7 +22,7 @@ public class Indicador {
     private String descricao;
 
     @Column
-    private Integer ano;
+    private String ano;
 
     @Column
     private Double consumo;
