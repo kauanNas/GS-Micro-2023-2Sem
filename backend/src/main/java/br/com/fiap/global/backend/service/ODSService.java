@@ -1,6 +1,6 @@
 package br.com.fiap.global.backend.service;
 
-import br.com.fiap.global.backend.dto.IndicadoDto;
+import br.com.fiap.global.backend.dto.IndicadorDtoODS;
 import br.com.fiap.global.backend.dto.ODSDto;
 import br.com.fiap.global.backend.dto.ObjetivoDto;
 import br.com.fiap.global.backend.model.Indicador;
@@ -24,13 +24,13 @@ public class ODSService {
         List<ODS> listaODS = repository.findAll();
         String id = null;
         ObjetivoDto objetivoDto = null;
-        List<IndicadoDto> indicadores = new ArrayList<>();
+        List<IndicadorDtoODS> indicadores = new ArrayList<>();
 
         for(ODS ods : listaODS){
             id = ods.getCodigo();
             objetivoDto = new ObjetivoDto(ods.getObjetivo().getGlobal(), ods.getObjetivo().getBrasil());
             for(Indicador obj : ods.getIndicadores()){
-                IndicadoDto indicador = new IndicadoDto(obj.getCodigo(), obj.getDescricao());
+                IndicadorDtoODS indicador = new IndicadorDtoODS(obj.getCodigo(), obj.getDescricao());
                 indicadores.add(indicador);
             }
         }
