@@ -1,8 +1,8 @@
 package br.com.fiap.global.backend.service;
 
-import br.com.fiap.global.backend.dto.IndicadorDtoODS;
-import br.com.fiap.global.backend.dto.ODSDto;
-import br.com.fiap.global.backend.dto.ObjetivoDto;
+import br.com.fiap.global.backend.dto.indicador.IndicadorDtoODS;
+import br.com.fiap.global.backend.dto.ods.ODSDto;
+import br.com.fiap.global.backend.dto.objetivo.ObjetivoDto;
 import br.com.fiap.global.backend.model.Indicador;
 import br.com.fiap.global.backend.model.ODS;
 import br.com.fiap.global.backend.repository.ODSRepository;
