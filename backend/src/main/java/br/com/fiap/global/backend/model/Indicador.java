@@ -27,6 +27,9 @@ public class Indicador {
     @Column
     private Double consumo;
 
+    @Column
+    private String regiao;
+
     @ManyToOne
     @JoinColumn(name = "id_ods")
     @JsonIgnore
