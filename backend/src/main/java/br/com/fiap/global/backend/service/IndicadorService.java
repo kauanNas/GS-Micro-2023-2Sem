@@ -6,6 +6,8 @@ import br.com.fiap.global.backend.repository.IndicadorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class IndicadorService {
 
@@ -15,5 +17,9 @@ public class IndicadorService {
     public IndicadorDto buscaIndicador(Long id) {
         Indicador indicador = repository.getReferenceById(id);
         return new IndicadorDto(indicador.getAno(), indicador.getConsumo());
+    }
+
+    public List<Indicador> buscaListaIndicadores() {
+        return repository.findAll();
     }
 }
