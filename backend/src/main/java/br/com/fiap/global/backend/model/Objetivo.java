@@ -1,9 +1,13 @@
 package br.com.fiap.global.backend.model;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 @Getter
+@AllArgsConstructor
+@NoArgsConstructor
 @Entity(name = "objetivo")
 public class Objetivo {
 
