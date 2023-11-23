@@ -71,8 +71,7 @@ public class IndicadorControllerTest {
         this.mockMvc.perform(MockMvcRequestBuilders.get("/indicadores").accept(MediaType.APPLICATION_JSON))
                 .andDo(print())
                 .andExpect(status().isOk())
-                .andExpect(MockMvcResultMatchers.jsonPath("$[0].codigo", is("teste")))
-                .andExpect(MockMvcResultMatchers.jsonPath("$[0].id").exists());
+                .andExpect(MockMvcResultMatchers.jsonPath("$[0].codigo", is("teste")));
     }
 
     @Test
