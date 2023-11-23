@@ -5,6 +5,13 @@
 - Kauan Nascimento - RM: 87318
 - Vitor Francisco - RM: 88930
 
+## DIAGRAMAS DER E MER
+![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/4ecbbd8f-71b0-4234-9e5f-c1f84514aac9)
+![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/8274c6ea-d1cd-4b97-8761-6ba5c89a6454)
+![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/fe4f2370-c197-4fca-8948-1331938be78f)
+![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/e70b5248-8245-40a1-b67e-f9e545dc7564)
+
+
 ## BACKEND
 - Crie um database chamado gs no mysql local
 - Rode a aplicação que as tabelas serão criadas automaticamente
@@ -16,4 +23,4 @@
 
 ## TESTES
 - Os testes de integração fiz na pasta do backend ultilizando mock, para acessá-los e rodá-los navegue até a pasta de teste: backend/src/test/java/br/com/fiap/global/backend você encontrará duas pastas controller e service, acessando cada uma delas você terá as classes de testes, basta apenas rodá-las e ver os testes funcionando.
-- Os testes de carga esão na pasta test no início do projeto, primeiro suba a aplicação backend e dps abra um terminal nessa pasta de test e primeiro digite "choco install k6 -y --force" depois digite "k6 run scripts.js" que os testes de carga irão roda 
+- Os testes de carga esão na pasta test no início do projeto, primeiro suba a aplicação backend e dps abra um terminal nessa pasta de test e primeiro digite "choco install k6 -y --force" depois digite "k6 run scripts.js" que os testes de carga irão rodar 
