@@ -6,11 +6,10 @@
 - Vitor Francisco - RM: 88930
 
 ## DIAGRAMAS DER E MER
-![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/4ecbbd8f-71b0-4234-9e5f-c1f84514aac9)
-![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/8274c6ea-d1cd-4b97-8761-6ba5c89a6454)
-![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/7296d898-ddd2-40a6-9129-de6418ca26b3)
-![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/9526f277-5deb-481f-9d75-24b720de773b)
-
+![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/32210a11-e8da-45aa-87d3-7226fb848d00)
+![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/243f9cee-8440-4b1c-93ef-798588f8f76c)
+![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/50c294c1-35d5-450e-a7c8-b1b22a4b3b1e)
+![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/bcd50e85-751f-485f-a32d-0eb2df56301f)
 
 
 ## BACKEND
