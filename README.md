@@ -16,4 +16,4 @@
 
 ## TESTES
 - Os testes de integração fiz na pasta do backend ultilizando mock, para acessá-los e rodá-los navegue até a pasta de teste: backend/src/test/java/br/com/fiap/global/backend você encontrará duas pastas controller e service, acessando cada uma delas você terá as classes de testes, basta apenas rodá-las e ver os testes funcionando.
-- Os testes de carga esão na pasta test no início do projeto, primeiro suba a aplicação backend e dps abra um terminal nessa pasta de test e apenas digite "k6 run scripts.js" que os testes de carga irão roda 
+- Os testes de carga esão na pasta test no início do projeto, primeiro suba a aplicação backend e dps abra um terminal nessa pasta de test e primeiro digite "choco install k6 -y --force" depois digite "k6 run scripts.js" que os testes de carga irão roda 
