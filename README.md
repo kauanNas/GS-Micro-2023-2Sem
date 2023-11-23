@@ -8,8 +8,9 @@
 ## DIAGRAMAS DER E MER
 ![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/4ecbbd8f-71b0-4234-9e5f-c1f84514aac9)
 ![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/8274c6ea-d1cd-4b97-8761-6ba5c89a6454)
-![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/fe4f2370-c197-4fca-8948-1331938be78f)
-![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/e70b5248-8245-40a1-b67e-f9e545dc7564)
+![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/7296d898-ddd2-40a6-9129-de6418ca26b3)
+![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/9526f277-5deb-481f-9d75-24b720de773b)
+
 
 
 ## BACKEND
@@ -27,6 +28,11 @@
 
 ## FRONTEND
 - Para rodar o frontend, primeiro rode o backend, logo após subir o backend, abra um terminal na pasta do frontend e digite npm i(é necessário ter o node instalado), depois digite npm run serve que irá subir o frontend, aperte no link que será exibido no terminal para visualizar em seu navegador.
+
+- Wireframe:
+![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/8a9ccd2b-22e5-41cd-b334-83e119a9dd26)
+![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/eb84a788-a6a4-4683-b2bb-4f23001ae218)
+
 
 ## TESTES
 - Os testes de integração fiz na pasta do backend ultilizando mock, para acessá-los e rodá-los navegue até a pasta de teste: backend/src/test/java/br/com/fiap/global/backend você encontrará duas pastas controller e service, acessando cada uma delas você terá as classes de testes, basta apenas rodá-las e ver os testes funcionando.
