@@ -1,6 +1,10 @@
 package br.com.fiap.global.backend.dto.indicador;
 
-public record IndicadorDtoHomeView(Long id, String codigo) {
+public record IndicadorDtoHomeView(String codigo) implements Comparable<IndicadorDtoHomeView>{
 
 
+    @Override
+    public int compareTo(IndicadorDtoHomeView o) {
+        return this.codigo.compareTo(o.codigo);
+    }
 }

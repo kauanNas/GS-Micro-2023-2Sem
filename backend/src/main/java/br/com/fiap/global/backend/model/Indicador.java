@@ -10,7 +10,6 @@ import lombok.NoArgsConstructor;
 @Getter
 @NoArgsConstructor
 @Entity(name = "indicador")
-@Table(uniqueConstraints = { @UniqueConstraint(columnNames = {"codigo"} )})
 public class Indicador {
 
     @Id

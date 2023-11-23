@@ -66,7 +66,7 @@ public class IndicadorControllerTest {
 
     @Test
     public void listaIndicadores() throws Exception {
-        IndicadorDtoHomeView dtoHomeView = new IndicadorDtoHomeView(1L, "teste");
+        IndicadorDtoHomeView dtoHomeView = new IndicadorDtoHomeView("teste");
         Mockito.when(indicadorService.buscaListaIndicadores()).thenReturn(List.of(dtoHomeView));
         this.mockMvc.perform(MockMvcRequestBuilders.get("/indicadores").accept(MediaType.APPLICATION_JSON))
                 .andDo(print())

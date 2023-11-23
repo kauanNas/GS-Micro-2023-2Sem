@@ -12,7 +12,6 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity(name = "ods")
-@Table(uniqueConstraints = { @UniqueConstraint(columnNames = {"codigo"} )})
 public class ODS {
 
     @Id
@@ -23,7 +22,7 @@ public class ODS {
     private String codigo;
 
     @ManyToOne
-    @JoinColumn
+    @JoinColumn(name = "id_objetivo")
     private Objetivo objetivo;
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "ods")

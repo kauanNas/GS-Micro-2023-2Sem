@@ -57,7 +57,7 @@ public class IndicadorServiceTest {
 
         List<IndicadorDtoHomeView> result = service.buscaListaIndicadores();
 
-        IndicadorDtoHomeView dtoHomeView = new IndicadorDtoHomeView(1L, "codigo");
+        IndicadorDtoHomeView dtoHomeView = new IndicadorDtoHomeView("codigo");
 
         Assert.assertEquals(List.of(dtoHomeView), result);
     }

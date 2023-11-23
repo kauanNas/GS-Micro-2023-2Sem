@@ -9,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
 import java.util.List;
 
 @Service
@@ -23,14 +25,20 @@ public class IndicadorService {
     }
 
     public List<IndicadorDtoHomeView> buscaListaIndicadores() {
-        List<Indicador> indicadores = repository.findAll();
+        List<Indicador> indicadoresNaoTratados = repository.findAll();
         List<IndicadorDtoHomeView> indicadoresDtoHomeView = new ArrayList<>();
-        for(Indicador indicador : indicadores){
-            IndicadorDtoHomeView dtoHomeView = new IndicadorDtoHomeView(indicador.getId(), indicador.getCodigo());
+        for(Indicador indicador : indicadoresNaoTratados){
+            IndicadorDtoHomeView dtoHomeView = new IndicadorDtoHomeView(indicador.getCodigo());
             indicadoresDtoHomeView.add(dtoHomeView);
         }
 
-        return indicadoresDtoHomeView;
+        HashSet<IndicadorDtoHomeView> indicadoresTratados = new HashSet<>(indicadoresDtoHomeView);
+
+        List<IndicadorDtoHomeView> indicadoresFinais = new ArrayList<>(indicadoresTratados);
+
+        Collections.sort(indicadoresFinais);
+
+        return indicadoresFinais;
     }
 
     public List<IndicadorDtoMetricasView> buscaMetricas(String id) {
