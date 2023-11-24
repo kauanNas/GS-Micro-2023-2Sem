@@ -25,12 +25,16 @@
 ![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/28d3d0a4-fd6e-4410-83b0-fba272b5ebb8)
 ![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/7c04a1bf-0f4f-4beb-b17a-1c6f7abafc61)
 
+- DOCKER: abra o terminal na pasta de backend e rode o comando: docker build . -t backend 
+
 ## FRONTEND
 - Para rodar o frontend, primeiro rode o backend, logo após subir o backend, abra um terminal na pasta do frontend e digite npm i(é necessário ter o node instalado), depois digite npm run serve que irá subir o frontend, aperte no link que será exibido no terminal para visualizar em seu navegador.
 
 - Wireframe:
 ![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/8a9ccd2b-22e5-41cd-b334-83e119a9dd26)
 ![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/eb84a788-a6a4-4683-b2bb-4f23001ae218)
+
+- DOCKER: abra o terminal na pasta de frontend e rode o comando: docker build . -t frontend 
 
 
 ## TESTES
