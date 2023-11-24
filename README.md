@@ -18,7 +18,7 @@
 - Abra o postman e com o método GET ultilize as urls: http://localhost:8080/objetivos && http://localhost:8080/indicador/{id} para obter os dados dos endpoints, substitua o {id} por um id que você deseja, exemplo: http://localhost:8080/indicador/1
 - Temos outros dois endpoints, entretando são focados para exibir os dados no frontend, mas também podem ser testados no postman, urls: http://localhost:8080/indicadores &&  http://localhost:8080/buscaMetricas/{id} , substitua o {id} dessa vez, por um id/codigo de indicador, exemplo: http://localhost:8080/buscaMetricas/3.1.1
 
-- Prints tirados com o banco ainda com poucos dados:
+- Prints tirados com o banco com dados de teste:
 
 ![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/1c7e0ac5-1aaa-4d49-aec8-4614414d42e4)
 ![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/696b051c-d39c-439f-bc7b-f0e37b5ad6a4) 
