@@ -15,8 +15,8 @@
 ## BACKEND
 - Crie um database chamado gs no mysql local
 - Rode a aplicação que as tabelas e os dados serão criados automaticamente
-- Abra o postman e com o método GET ultilize as urls: http://localhost/objetivos && http://localhost/indicador/{id} para obter os dados dos endpoints, substitua o {id} por um id que você deseja, exemplo: http://localhost/indicador/1
-- Temos outros dois endpoints, entretando são focados para exibir os dados no frontend, mas também podem ser testados no postman, urls: http://localhost/indicadores &&  http://localhost/buscaMetricas/{id} , substitua o {id} dessa vez, por um id/codigo de indicador, exemplo: http://localhost/buscaMetricas/3.1.1
+- Abra o postman e com o método GET ultilize as urls: http://localhost:8080/objetivos && http://localhost:8080/indicador/{id} para obter os dados dos endpoints, substitua o {id} por um id que você deseja, exemplo: http://localhost:8080/indicador/1
+- Temos outros dois endpoints, entretando são focados para exibir os dados no frontend, mas também podem ser testados no postman, urls: http://localhost:8080/indicadores &&  http://localhost:8080/buscaMetricas/{id} , substitua o {id} dessa vez, por um id/codigo de indicador, exemplo: http://localhost:8080/buscaMetricas/3.1.1
 
 - Prints tirados com o banco ainda com poucos dados:
 
