@@ -34,6 +34,13 @@
 ![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/8a9ccd2b-22e5-41cd-b334-83e119a9dd26)
 ![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/eb84a788-a6a4-4683-b2bb-4f23001ae218)
 
+- Frontend funcionando:
+  
+![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/54789aaf-8d12-48f9-ac09-8ee88e6b84f8)
+
+![image](https://github.com/kauanNas/GS-Micro-2023-2Sem/assets/101115741/eb999557-070c-49c4-94f2-0184e31dd344)
+
+
 - DOCKER: abra o terminal na pasta de frontend e rode o comando: docker build . -t frontend 
 
 
